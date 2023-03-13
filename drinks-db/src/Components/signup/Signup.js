@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Signup.css';
 
 
@@ -21,6 +22,7 @@ const Signup = () => {
         <p>Password</p> 
         <input type={Text} className="input" placeholder='enter your password'></input> 
         <button type='button' className='button'>Signup</button>
+        <p>Already have an account?  <Link to='/Signin'>Sign in</Link> </p>
         </div> 
      </div>
      

@@ -1,9 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import { Link, link }   from 'react-router-dom'
+import { Link }   from 'react-router-dom'
 import Signup from './Components/signup/Signup';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
+import Signin from './Pages/Signin';
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
     } />
     <Route path='/signup' element={<Signup />} />
     </Routes>
+    <Signin /> 
     </BrowserRouter>
     </> 
 
