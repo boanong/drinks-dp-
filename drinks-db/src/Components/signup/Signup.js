@@ -1,11 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Signup.css';
 
 
 const Signup = () => {
   return (
-    <div> 
+    <div>
         <div className='signup-content'> 
          <div className='heading'> 
             <h2 className='drinky'>DRINKY</h2>
@@ -17,12 +16,11 @@ const Signup = () => {
         <input type={Text} className="input" placeholder='enter your first name'></input>
         <p>Lastname</p>
         <input type={Text} className="input" placeholder='enter your lastname'></input>
-        <p>Email</p> 
+        <p>Email</p>
         <input type={Text} className="input" placeholder='enter your email'></input>
         <p>Password</p> 
         <input type={Text} className="input" placeholder='enter your password'></input> 
         <button type='button' className='button'>Signup</button>
-        <p>Already have an account?  <Link to='/Signin'>Sign in</Link> </p>
         </div> 
      </div>
      
