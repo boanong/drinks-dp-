@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.sign_in_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-container {
+  min-height: 70vh;
+  width: 50%;
+  background-image: linear-gradient( #ec8b5e,  #141a46);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.white-container {
+  min-width: 20vw;
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 0 2rem;
+  border-radius: 4px;
+}
+
+.white-container input {
+   margin:  5px 0; 
+}
+
+.signing {
+    width: 40vh;
+    padding: 6px;
+    
+}
+.sign-in-button {
+    width: 40vh;
+    margin: 25px 0;
+    padding: 6px;
+    background-color:  #141a46;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.sign-in-button:hover {
+    cursor: pointer;
+}
+

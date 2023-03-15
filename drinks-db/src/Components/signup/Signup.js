@@ -1,5 +1,6 @@
 import React from 'react'
 import './Signup.css';
+import { Link } from 'react-router-dom'
 
 
 const Signup = () => {
@@ -23,10 +24,12 @@ const Signup = () => {
         <button type='button' className='button'>Signup</button>
         </div> 
      </div>
-     
+     <p className='have-account'>Already have an account? <Link to="/signin">Sign in</Link>
+      </p> 
       </div>
+
     </div>  
   )
 }
 
-export default Signup
+export default Signup;
