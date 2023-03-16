@@ -1,11 +1,13 @@
 import React from 'react'
 import './Signup.css';
 import { Link } from 'react-router-dom'
+import TopNav from '../TopNav';
 
 
 const Signup = () => {
   return (
     <div>
+      <TopNav />
         <div className='signup-content'> 
          <div className='heading'> 
             <h2 className='drinky'>DRINKY</h2>
