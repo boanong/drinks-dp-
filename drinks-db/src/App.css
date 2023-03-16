@@ -54,6 +54,7 @@ body {
 
 .center-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -70,4 +71,13 @@ body {
 
 .input {
   color: white;
+}
+
+.home-button {
+  padding: 15px 45px;
+  background-color: #ec8b5e;
+  color:  #141a46;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }

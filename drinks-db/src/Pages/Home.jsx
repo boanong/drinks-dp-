@@ -9,8 +9,9 @@ function Home() {
         </video>
         <div className="center-content">
           <h1 className="drinks-db">
-            It&apos;s always a good time for a drink
+            It&apos;s always a good time for a drink 
           </h1>
+          <button className='home-button'>Explore</button>
         </div>
       </div>
     </div>
