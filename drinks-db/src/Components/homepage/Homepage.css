@@ -1,39 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: bold;
 }
 
 .top-nav {
-    display: flex;
-    background-color:#141a46;
-    overflow: hidden;
-    justify-content: center;
-    gap: 170px;
-    height: 50px;
-  }
-  
-  .top-nav a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 25px 25px;
-    text-decoration: none;
-    font-size: 17px;
-    float: left;
-  }
-  
-  .active {
-    background-color: #ca94ca;
-  }
-    
-  .top-nav a:hover {
-    background-color: #fcf9fc;
-    color: black;
-    height: 1px;
-  }
-  
-  .top-nav a.active {
-    color: rgb(6, 0, 0);
-  }
-  
+  display: flex;
+  background-color: #141a46;
+  overflow: hidden;
+  justify-content: center;
+  gap: 170px;
+  height: 50px;
+}
+
+.top-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ec8b5e;
+  text-align: center;
+  padding: 25px 25px;
+  text-decoration: none;
+  font-size: 17px;
+  float: left;
+}
+
+.top-nav a:hover {
+  background-color: #ec8b5e;
+  color: black;
+  height: 1px;
+}
+
+.search {
+  padding: 4px;
+}
+
+#sidnav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #141a46;
+  z-index: 2;
+}
+
+#sidnav nav {
+  margin-top: 90px;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ec8b5e;
+}
+
+#menubtn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  left: 30px;
+  top: 20px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+  background-color: #ec8b5e;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#menubtn img {
+  width: 20px;
+  margin-top: 15px;
+}
+
+.find {
+  height: 30px;
+  width: 200px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.hero-image {
+  background-image: url('https://images.pexels.com/photos/301692/pexels-photo-301692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-color: chocolate;
+  margin: 0;
+  padding: 0;
+}
+.hero-title {
+  color: white;
+  font-family: 'Kaushan Script';
+  padding: 0 50px;
+  margin: 0;
+  font-size: 47pt;
+  padding-top: 100px;
+}
+
+.searchbtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+}
+
+input 
+{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 5s;
+}
+
+input [type='text']
+{
+  background-color: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+input [type='Submit']
+{
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  left: -5px;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ffc107;
+  color: #fff;
+
+}
