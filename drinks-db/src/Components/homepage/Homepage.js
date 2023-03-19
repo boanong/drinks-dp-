@@ -32,19 +32,21 @@ const [see, setsee] =useState (true)
         <div> 
       <div className='hero-image'>
 
-        <h1 className='hero-title'> One platform, a thousand drinks </h1>
+      <div className='container'>
+        <span className='text first-text'> Relex</span>
+        <span className='text sec-text'> Relex</span>
+      </div>
+
+        <h1 className='hero-title'> Relax and have a drink</h1>
         <div className='searchbtn'>
           <form>
-            <input type='text' name='' placeholder='Type...' /> 
-            <input type='Submit' name='' value='Search...' /> 
-
+            <input type='text' className='type' placeholder='Type...' /> 
+            <input type='submit' className='search' value='Search...' /> 
           </form>
-
         </div>
       </div>
       </div>
     </div>
-
   );
 };
 export default Homepage;
