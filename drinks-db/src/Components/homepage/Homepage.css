@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 * {
   box-sizing: border-box;
@@ -102,68 +103,44 @@ nav ul li a {
   padding: 0;
 }
 
-.hero-title {
-  color: white;
-  font-family: 'Kaushan Script';
-  padding: 0 50px;
-  margin: 0;
-  font-size: 70pt;
-  padding-top: 100px;
-}
-
-.searchbtn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  transform: translate(-50%, -50%);
-}
-
-input 
-{
-  position: relative;
-  display: inline-block;
-  font-size: 20px;
-  box-sizing: border-box;
-  transition: 5s;
-}
-
-.type {
-  background-color: #fff;
-  width: 340px;
-  height: 50px;
-  border: none;
-  outline: none;
-  padding: 0 25px;
-  border-radius: 25px 0 0 25px;
-}
-
-.search {
-  position: relative;
-  border-radius: 0 25px 25px 0;
-  left: -5px;
-  width: 340px;
-  height: 50px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background: #ffc107;
-  color: #fff;
-}
-
-
 .container {
+  padding-top: 100px;
 
 }
 
 .container .text {
-  position: absolute;
-  color: #4070f4;
-  font-size: 40px;
+  position: relative;
+  color: white;
+  font-size: 70px;
   font-weight: 600;
+  font-family: 'Kaushan Script';
+
 }
 
 .container .text.first-text {
-  color;
+  color: #fff;
+  font-family: 'Kaushan Script';
+  margin-top: 300px;
+}
 
+.text.sec-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Kaushan Script';
+  background-color: rgba(109, 72, 38, 1);
+  border-left: 2px solid #4070f4;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
 }
