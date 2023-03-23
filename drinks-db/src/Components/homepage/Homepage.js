@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import './Homepage';
 import './Homepage.css';
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
-
 
 const [see, setsee] =useState (true)
   return (
     <div>
       <div class="top-nav">
+        <Link to="/">
         <a class="active" href="#home">
-        Info
-        </a>
+        Home
+        </a> 
+        </Link>
         <a href="#drinks">Drinks</a>
         <a href="#api">API</a>
         <input type="text" placeholder="Search..." className='find'/>
@@ -20,7 +22,7 @@ const [see, setsee] =useState (true)
           <img src='https://www.lifepng.com/wp-content/uploads/2020/11/Menu-Icon-png-hd.png' alt='menu-button' id='menu' />
       </div>
       </div>
-      {see && (       <div id='sidnav'>
+      {see && (    <div id='sidnav'>
         <nav>
           <ul>
             <li> <a href='nav'> Alcohol</a></li>
