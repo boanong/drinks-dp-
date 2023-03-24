@@ -9,11 +9,12 @@ const [see, setsee] =useState (true)
   return (
     <div>
       <div class="top-nav">
-        <Link to="/">
+       
+      <Link to="/"> 
         <a class="active" href="#home">
         Home
-        </a> 
-        </Link>
+      </a>  
+      </Link>
         <a href="#drinks">Drinks</a>
         <a href="#api">API</a>
         <input type="text" placeholder="Search..." className='find'/>
