@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+
+}
+.edit-profile-card {
+    height: 90vh;
+    width: 30%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.upper-section {
+    height: 40%;
+    width: 100%;
+    background-color: aliceblue;
+
+
+}
+
+.profile-pic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+
+
+}
