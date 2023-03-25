@@ -14,8 +14,6 @@ const Profile = () => {
             <p>clerkson@gmail.com</p>
 
         </div>
-        
-      
       </div>
     </div>
   )
