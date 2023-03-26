@@ -16,13 +16,13 @@ const Signup = () => {
      <div className='form-info'>
       <div className='signup-form'> 
         <p>Firstname</p>
-        <input type={Text} className="input" placeholder='enter your first name'></input>
+        <input type={Text} className="details" placeholder='enter your first name'></input>
         <p>Lastname</p>
-        <input type={Text} className="input" placeholder='enter your lastname'></input>
+        <input type={Text} className="details" placeholder='enter your lastname'></input>
         <p>Email</p>
-        <input type={Text} className="input" placeholder='enter your email'></input>
+        <input type={Text} className="details" placeholder='enter your email'></input>
         <p>Password</p> 
-        <input type={Text} className="input" placeholder='enter your password'></input> 
+        <input type={Text} className="details" placeholder='enter your password'></input> 
         <button type='button' className='button'>Signup</button>
         </div> 
      </div>

@@ -12,7 +12,6 @@ body {
 
 .signup-content {
   background-color: #242d74;
-  
   width: 50%;
   min-height: 90vh;
   display: grid;
@@ -28,7 +27,7 @@ body {
   margin-bottom: 3px;
 }
 
-.input {
+.details {
   width: 50vh;
   padding: 7px;
   color: white;

@@ -13,7 +13,6 @@ export default function Signin() {
           <input type={Text} className='signing' placeholder='Enter your password'/>
           <button type='button' className='sign-in-button'>Sign in</button>
         </div>
-      
       </div>
     </div>
   )
