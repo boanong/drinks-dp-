@@ -21,7 +21,7 @@ const Profile = () => {
           
          type="text" className='profile-input' value="Enter new name" 
          />
-        <input type="tel" className='profile-input' value="Enter your new number" />
+        <input type="tel" className='profile-input' placeholder="Enter your new number" />
         <input type="button" className='submit-button' value="Submit changes" />
         <p className='status'>You are currently registered as a guest user. To change your status click here</p>
       </div>
