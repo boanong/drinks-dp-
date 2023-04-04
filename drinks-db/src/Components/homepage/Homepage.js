@@ -29,6 +29,7 @@ const [see, setsee] =useState (true)
       {see && (    <div id='sidnav'>
         <nav>
           <ul>
+            <li> <a href='nav'> Create Drink</a></li>
             <li> <a href='nav'> Alcohol</a></li>
             <li> <a href='nav'> Beer </a></li>
             <li> <a href='nav'> Soft drinks </a></li>
