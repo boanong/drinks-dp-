@@ -30,10 +30,10 @@ const [see, setsee] =useState (true)
         <nav>
           <ul>
             <li> <a href='nav'> Create Drink</a></li>
-            <li> <a href='nav'> Alcohol</a></li>
-            <li> <a href='nav'> Beer </a></li>
-            <li> <a href='nav'> Soft drinks </a></li>
-            <li> <a href='nav'> Wine </a></li>
+            <li> <a href='nav'> Categories</a></li>
+            <li> <a href='nav'> Ingredients </a></li>
+            <li> <a href='nav'> Glasses </a></li>
+            <li> <a href='nav'> Drinks </a></li>
             <li> <a href='nav'> Whisky </a></li>
           </ul>
         </nav>
