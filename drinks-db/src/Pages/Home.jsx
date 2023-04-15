@@ -14,12 +14,15 @@ function Home() {
           <h1 className="drinks-db">
             It&apos;s always a good time for a drink
           </h1>
-          <div>
+          <div> 
             <Link to="/homepage">
               <button className="home-button">Explore</button>
             </Link>
           </div>
         </div>
+      </div>
+      <div className="drinks-display">
+       
       </div>
     </div>
   );
