@@ -21,8 +21,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="drinks-display">
-       
+      <div className='buttom-section'>
+        <h2>All Drinks in one place</h2>
       </div>
     </div>
   );
